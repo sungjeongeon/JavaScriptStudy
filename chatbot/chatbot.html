@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ko">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>챗봇</title>
+		<link rel="stylesheet" type="text/css" href="css/chatbot.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Jua&family=Nanum+Pen+Script&display=swap" rel="stylesheet">
+		<script src="https://kit.fontawesome.com/544a3dab5a.js" crossorigin="anonymous"></script>
+		<script src="https://unpkg.com/typewriter-effect@2.3.1/dist/core.js"></script>
+	</head>
+	<body>
+		<div class="layout">
+			<div class="dogSays" id="dogConsole">
+				멍멍🐾
+			</div>
+			<div class="dog">
+				<img src="../images/dog.png">
+			</div>
+			<div id="check"></div>
+			<div class="input_layout">
+				<input type="text" id="input" class="input_style" onkeyup="enterkey()" >
+			</div>
+			<div class="button" onclick="talk_input()">
+				<i class="fa-solid fa-bone"></i>
+			</div>
+		</div>
+		<script type="text/javascript" src="js/chatbot.js"></script>
+	</body>
+</html>
