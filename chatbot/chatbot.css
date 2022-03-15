@@ -1,0 +1,74 @@
+.layout {
+  position: absolute;
+  left: 30%;
+  width: 500px;
+  height: 500px;
+  margin: auto;
+}
+
+.dog {
+  width: 150px;
+  height: 150px;
+  margin: auto;
+  margin-bottom: 30px;
+}
+.dog img {
+    width: 100%;
+    height: 100%;
+}
+
+.dogSays {
+    width: 450px;
+    height: 120px;
+    text-align: center;
+    line-height: 120px;
+    margin: 20px;
+    border-radius: 5px;
+    border: solid 2px #77b3fa;
+    font-size: 23px;
+    font-family: 'Jua', sans-serif;
+}
+#check {
+  text-align: center;
+  font-family: 'Nanum Pen Script';
+  font-size:  20px;
+  margin-bottom:  10px;
+}
+.button {
+  width: 150px;
+  background: #76b3fa;
+  border-radius: 100px;
+  padding: 10px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.45em;
+  text-align: center;
+  margin: auto;
+  margin-top: 30px;
+  cursor: pointer;
+}
+.button i {
+  color: white;
+  font-size: 40px;
+}
+.input_style {
+  width: 312px;
+  height: 19px;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.88;
+  letter-spacing: normal;
+  text-align: left;
+  color: gray;
+  border: none;
+  margin-top: 7px;
+  border: solid 2px #5f9be0;
+  border-radius: 3px;
+  margin: auto;
+}
+
+.input_layout {
+  text-align: center;
+}
